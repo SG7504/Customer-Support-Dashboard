@@ -1,0 +1,54 @@
+<!-- faqs.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQs</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .faq {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+        .faq h3 {
+            color: #1db954;
+            cursor: pointer;
+        }
+        .faq p {
+            display: none;
+            color: #ccc;
+        }
+    </style>
+    <script>
+        function toggleAnswer(element) {
+            var answer = element.nextElementSibling;
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+        <h3 onclick="toggleAnswer(this)">How do I create a support ticket?</h3>
+        <p>Go to the 'Tickets' section and click on 'New Ticket'. Fill out the required details and submit.</p>
+    </div>
+    <div class="faq">
+        <h3 onclick="toggleAnswer(this)">How can I access live chat support?</h3>
+        <p>Click on the 'Live Chat' option in the sidebar to start a real-time conversation with our support team.</p>
+    </div>
+    <div class="faq">
+        <h3 onclick="toggleAnswer(this)">What are the support working hours?</h3>
+        <p>Our support team is available 24/7 to assist you.</p>
+    </div>
+</body>
+</html>
