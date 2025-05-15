@@ -1,44 +1,67 @@
 # 🛠️ Customer Support Dashboard
 
-A simple, clean, and responsive HTML5-based Customer Support Dashboard, ideal for use in internal tools or educational projects. Built using semantic HTML5 with modern styling practices.
+A clean, responsive, and modular **Customer Support Dashboard** built using **HTML5, CSS3, and JavaScript**. Ideal for internal tools or learning projects, this dashboard provides a structured interface for navigating support content such as tickets, live chat, and FAQs.
+
+---
 
 ## 🌐 Project Overview
 
-This project includes a modular layout comprising:
-- **Header** (`header.html`) — Displays a bold, themed title for the dashboard.
-- **Sidebar** (`sidebar.html`) — Navigational panel with links to different support resources.
-- **Main Content Area** (`tickets.html`) — Section where users can view and manage their support tickets.
+This project includes three core components:
+- **Sidebar** (`sidebar.html`) — Provides navigation to support sections.
+- **Main Content Area** (`main.html`) — Serves as the landing space for content loaded via links.
+- **Tickets Page** (`tickets.html`) — Displays and manages support ticket information.
 
-The layout emphasizes readability, modern aesthetics (dark mode), and beginner-friendly structure.
+Each component is styled using a modern, dark-themed UI and can be displayed together using `iframe` or an HTML frameset.
 
-## 🧱 File Structure
+---
+
+## 📁 File Structure
 
 📁 customer-support-dashboard/
-├── header.html # Top header for branding
-├── sidebar.html # Side navigation for support options
-└── tickets.html # Main content page for ticket management
+├── sidebar.html # Side navigation with links
+├── main.html # Main dashboard content
+└── tickets.html # Ticket viewing interface
 
+---
 
-## 🎯 Features
-
-- Semantic and clean HTML5
-- Modern dark-themed UI
-- Responsive layout with potential for expansion (e.g., Live Chat, FAQs)
-- Styled using internal CSS for simplicity
-
-## 🚀 How to Use
+## 🚀 How to Run
 
 1. Clone or download the repository.
-2. Open the HTML files in a web browser.
-3. Use `iframe` or HTML frameset (if combining) to load the `header.html`, `sidebar.html`, and `tickets.html` together in one layout.
+2. Open each HTML file individually in a browser **or** combine them using an `iframe` layout.
+3. Use `sidebar.html` to navigate between sections like Tickets, Live Chat, and FAQs (links provided).
 
-> **Note**: For full integration, consider combining components into a single HTML layout using frames or modular imports in a framework like React or Vue.
+---
 
-## 💡 Why HTML5?
+## ✨ Features
 
-This project is part of a hands-on learning journey into HTML5. It focuses on how semantic tags, structure, and styling form the foundation for real-world web applications.
+- Semantic, accessible HTML5 structure
+- Modular and scalable layout
+- Dark-mode friendly UI
+- Responsive and beginner-friendly design
+- Expandable links for Live Chat and FAQ (stubbed for future dev)
+
+---
+
+## 💡 Skills & Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (planned/expandable)  
+- DOM Structure  
+- Responsive Web Design  
+- Semantic Markup  
+- UI/UX Basics  
+- Git & GitHub  
+
+---
 
 ## 📄 License
 
-This project is open-source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and contribute!
 
+---
+
+## 🙋‍♂️ Author
+
+**Sparsh Guha**  
+B.Tech CSE 
